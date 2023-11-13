@@ -62,7 +62,7 @@ h3{
 
 /* Estilo Seccion 1 */
 
-@media (max-width: 768px) {
+@media (max-width: 768px){
     .seccion1 div{
         height: 480px;
  
@@ -79,7 +79,7 @@ h3{
 .seccion2{
     background-color: #0c00d6;
 }
-.contenedor2 {  
+.contenedor2{  
     width: 100%;
     padding: 200px;
     display: grid;
@@ -90,7 +90,7 @@ h3{
     
 }
   
-.imagen2 {
+.imagen2{
     grid-area: imagen2;
     justify-self: center;
     align-self: center;
@@ -102,7 +102,7 @@ h3{
     
 }
   
-.contenido2 {
+.contenido2{
     grid-area: contenido2;
     justify-self: center;
     align-self: center;
@@ -127,10 +127,9 @@ h3{
     
 }
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px){ 
     .contenedor2 {  
         padding: 50px;
-        gap: 20px;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         grid-template-areas: "imagen2" 
@@ -139,7 +138,7 @@ h3{
     .geek{
         width: 20rem;
     }
-    .contenido2 {
+    .contenido2{
         text-align: center;
        
     }
@@ -154,7 +153,7 @@ h3{
     padding-bottom: 100px;
 }
 
-.contenido3 {
+.contenido3{
     color: #fff;
    
 }
@@ -164,7 +163,7 @@ h3{
     margin: 20px;
 }
 
-.icono {
+.icono{
     font-size: 2em;
     margin-bottom: 10px;
 }
@@ -176,7 +175,7 @@ h3{
     background-size: 100%;
 }
 
-.contenido4 {
+.contenido4{
     padding: 50px;
     text-align: center;
 }
@@ -218,35 +217,35 @@ h3{
     box-sizing: border-box;
 }
 
-.column img {
+.column img{
     width: 30rem;
     height: auto;
     
 }
 
-.tabla-container {
+.tabla-container{
     max-width: 100%;
     overflow: auto;
 }
 
-table {
+table{
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
 }
 
-table, th, td {
+table, th, td{
     border-bottom: 1px solid black;
     
 }
 
-th, td {
+th, td{
     padding: 15px;
     text-align: left;
 }
 
 @media screen and (max-width: 768px){
-    .column {
+    .column{
       flex: 100%;
       order: 2;
     }
@@ -254,7 +253,7 @@ th, td {
         padding: 10px;
         text-align: center;
     }
-    .column img {
+    .column img{
         width: 20rem;
         height: auto;
         
@@ -282,7 +281,7 @@ th, td {
     padding-bottom: 100%; 
 }
 
-.texto6-contenedor {
+.texto6-contenedor{
     margin-top: 80px;
     padding: 100px;
     color: white;
@@ -306,12 +305,12 @@ th, td {
     
 }
 
-@media (max-width: 768px) {
-    .contenedor6 {
+@media (max-width: 768px){
+    .contenedor6{
         grid-template-columns: 1fr;
     }
 
-    .texto6-contenedor {
+    .texto6-contenedor{
         margin-top: auto;
         padding: 50px;
         text-align: center;
@@ -324,24 +323,24 @@ th, td {
     padding: 100px;
 }
 
-.contenedor7 {
+.contenedor7{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 100px;
     
 }
 
-.columna1-7 {
+.columna1-7{
     padding-right: 20px;
 }
 
-.columna2-7 {
+.columna2-7{
     padding-left: 20px;
     padding: 20px;
     
 }
 
-.card-7 {
+.card-7{
     margin-bottom: 20px;
     border: none;
   
@@ -357,11 +356,11 @@ th, td {
     color: #0c00d6;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px){
     .seccion7{
         padding: 10px;
     }
-    .contenedor7 {
+    .contenedor7{
         grid-template-columns: 1fr;
         text-align: center;
         padding: 50px 5px;
@@ -399,7 +398,10 @@ th, td {
    .extra-aki{
     grid-template-columns: 1fr;
     text-align: center;
-    padding: 50px 5px;
+    padding: 20px 5px;
+   }
+   .extra-aki-1{
+    
    }
    .extra-aki-2{
     width: 90%;
@@ -426,7 +428,7 @@ th, td {
     padding-bottom: 100%; 
 }
 
-.texto8-contenedor {
+.texto8-contenedor{
     margin-top: 80px;
     padding: 100px;
     color: white;
@@ -451,12 +453,12 @@ th, td {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 768px){
     .contenedor8 {
         grid-template-columns: 1fr;
     }
 
-    .texto8-contenedor {
+    .texto8-contenedor{
         margin-top: auto;
         padding: 50px;
         text-align: center;
@@ -470,24 +472,24 @@ th, td {
     padding: 100px;
 }
 
-.contenedor9 {
+.contenedor9{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 100px;
     
 }
 
-.columna1-9 {
+.columna1-9{
     padding-right: 20px;
 }
 
-.columna2-9 {
+.columna2-9{
     padding-left: 20px;
     padding: 20px;
     
 }
 
-.card-9 {
+.card-9{
     margin-bottom: 20px;
     border: none;
   
@@ -504,11 +506,11 @@ th, td {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 768px){
     .seccion9{
         padding: 10px;
     }
-    .contenedor9 {
+    .contenedor9{
         grid-template-columns: 1fr;
         text-align: center;
         padding: 50px 5px;
@@ -556,7 +558,7 @@ th, td {
     animation-name: gengar;
 }
 
-@keyframes gengar {
+@keyframes gengar{
     0%{
         background-image: url(../img/gengar-1.png);
         opacity: 1;
@@ -624,7 +626,7 @@ th, td {
     padding-bottom: 100%; 
 }
 
-.texto10-contenedor {
+.texto10-contenedor{
     margin-top: 80px;
     padding: 100px;
     color: white;
@@ -649,12 +651,12 @@ th, td {
 }
 
 
-@media (max-width: 768px) {
-    .contenedor10 {
+@media (max-width: 768px){
+    .contenedor10{
         grid-template-columns: 1fr;
     }
 
-    .texto10-contenedor {
+    .texto10-contenedor{
         margin-top: auto;
         padding: 50px;
         text-align: center;
@@ -668,24 +670,24 @@ th, td {
     padding: 100px;
 }
 
-.contenedor11 {
+.contenedor11{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 50px 5px;
     
 }
 
-.columna1-11 {
+.columna1-11{
     padding-right: 20px;
 }
 
-.columna2-11 {
+.columna2-11{
     padding-left: 20px;
     padding: 20px;
     
 }
 
-.card-11 {
+.card-11{
     margin-bottom: 20px;
     border: none;
   
@@ -702,11 +704,11 @@ th, td {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 768px){
     .seccion11{
         padding: 10px;
     }
-    .contenedor11 {
+    .contenedor11{
         grid-template-columns: 1fr;
         text-align: center;
         padding: 50px 5px;
@@ -738,7 +740,7 @@ th, td {
     padding-bottom: 100%; 
 }
 
-.texto12-contenedor {
+.texto12-contenedor{
     margin-top: 80px;
     padding: 100px;
     color: white;
@@ -762,12 +764,12 @@ th, td {
     
 }
 
-@media (max-width: 768px) {
-    .contenedor12 {
+@media (max-width: 768px){
+    .contenedor12{
         grid-template-columns: 1fr;
     }
 
-    .texto12-contenedor {
+    .texto12-contenedor{
         margin-top: auto;
         padding: 50px;
         text-align: center;
@@ -779,10 +781,9 @@ th, td {
     margin: 0 auto;
     padding: 0 auto;
     display: flex;
-   
 }
 
-.form-container {
+.form-container{
     width: 100%;
     padding: 100px;
     border-radius: 8px;
@@ -796,7 +797,7 @@ th, td {
     background-size: 100%;
 }
     
-form {
+form{
     width: 600px;
     padding: 20px;
     border: 1px solid black;
@@ -807,16 +808,16 @@ form {
     padding: 50px;
 }
   
-label {
+label{
     margin-bottom: 8px;
 }
     
-input, textarea {
+input, textarea{
     padding: 8px;
     margin-bottom: 16px;
 }
 
-button {
+button{
     background-color: white;
     color: black;
     border: 1px solid black;
@@ -826,7 +827,7 @@ button {
     font-family: 'DM Mono', monospace;
 }
   
-button:hover {
+button:hover{
     background-color: #0c00d6;
     color: white;
     border: 1px solid #0c00d6;
@@ -834,7 +835,6 @@ button:hover {
 
 .extra-contacto{
    text-align: center;
-   
 }
 
 .extra-contacto img{
@@ -842,7 +842,7 @@ button:hover {
 }
 
 @media screen and (max-width: 768px){
-    .form-container {
+    .form-container{
         padding: 30px;
     }
     form{
@@ -854,7 +854,7 @@ button:hover {
 
 /* ---------- Estilo boton flotante ---------- */
 
-.floating-button {
+.floating-button{
     position: fixed;
     bottom: 150px;
     right: 70px;
@@ -869,7 +869,7 @@ button:hover {
 }
 
 @media screen and (max-width: 768px){
-    .floating-button {
+    .floating-button{
         position: fixed;
         bottom: 120px;
         right: 10px;
@@ -881,7 +881,7 @@ button:hover {
 
 /* --------- Acá empieza el estilo del Footer --------- */
 
-footer {
+footer{
     background-color: #232323;
     color: #fff;
     text-align: center;
@@ -889,16 +889,16 @@ footer {
 }
 
 .social-icons,
-.footer-text {
+.footer-text{
     display: flex;
     align-items: center;
 }
 
-.footer-text {
+.footer-text{
     padding-top: 15px;
 }
 
-.social-icons a {
+.social-icons a{
     color: #fff;
     margin: 0 10px;
 }
