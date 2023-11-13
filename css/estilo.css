@@ -305,7 +305,7 @@ th, td{
     
 }
 
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
     .contenedor6{
         grid-template-columns: 1fr;
     }
@@ -356,7 +356,7 @@ th, td{
     color: #0c00d6;
 }
 
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
     .seccion7{
         padding: 10px;
     }
@@ -394,7 +394,7 @@ th, td{
     color: #0c00d6;
 }
 
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
    .extra-aki{
     grid-template-columns: 1fr;
     text-align: center;
@@ -453,7 +453,7 @@ th, td{
 }
 
 
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
     .contenedor8 {
         grid-template-columns: 1fr;
     }
@@ -506,7 +506,7 @@ th, td{
 }
 
 
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
     .seccion9{
         padding: 10px;
     }
@@ -597,11 +597,14 @@ th, td{
 
  
 
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
    .extra-shin{
     grid-template-columns: 1fr;
     text-align: center;
     padding: 50px 5px;
+   }
+   .extra-shin-1{
+    padding: 80px 20px;
    }
    
    
@@ -651,7 +654,7 @@ th, td{
 }
 
 
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
     .contenedor10{
         grid-template-columns: 1fr;
     }
@@ -704,7 +707,7 @@ th, td{
 }
 
 
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
     .seccion11{
         padding: 10px;
     }
@@ -764,7 +767,7 @@ th, td{
     
 }
 
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
     .contenedor12{
         grid-template-columns: 1fr;
     }
