@@ -129,7 +129,7 @@ h3{
 
 @media screen and (max-width: 768px){ 
     .contenedor2 {  
-        padding: 50px;
+        padding: 80px 20px;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         grid-template-areas: "imagen2" 
@@ -250,7 +250,7 @@ th, td{
       order: 2;
     }
     .contenedor5{
-        padding: 10px;
+        padding: 80px 20px;
         text-align: center;
     }
     .column img{
@@ -401,7 +401,7 @@ th, td{
     padding: 20px 5px;
    }
    .extra-aki-1{
-    
+    padding: 80px 20px;
    }
    .extra-aki-2{
     width: 90%;
