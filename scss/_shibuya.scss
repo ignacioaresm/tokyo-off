@@ -1,0 +1,90 @@
+main{
+    .seccion10{
+        .contenedor10{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center; 
+            background-color: $lightblue;
+            .imagen-shibuya{
+                background-image: url(../img/shibuya-noche.jpg); 
+                background-size: cover;
+                background-position: center;
+                height: 0;
+                padding-bottom: 100%;
+                @include tablet{
+                    padding-bottom: 120%;
+                } 
+            }
+            .texto10-contenedor{
+                margin-top: 80px;
+                padding: 100px;
+                color: white;
+                .boton5{
+                    color:white;
+                    text-decoration: none;
+                    font-family: 'DM Mono', monospace;
+                    font-size: 14px;
+                    border: 1px solid white;
+                    border-radius: 3px;
+                    padding: 15px;
+                    &:hover{
+                        color: $lightblue;
+                        background-color: white;
+                        border: $lightblue;
+                    }
+                }
+                @include tablet{
+                    margin-top: auto;
+                    padding: 80px 20px;
+                    text-align: center;
+                }
+            }
+            @include tablet{
+                grid-template-columns: 1fr;
+            }
+        }   
+    }
+    .seccion11{
+        padding: 100px;
+        .contenedor11{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 100px;
+            .columna1-11{
+                padding-right: 20px;
+                .card-11{
+                    margin-bottom: 20px;
+                    border: none;
+                    .card-contenedor{
+                        a{
+                            text-decoration: none;
+                            color: black;
+                            &:hover{
+                                text-decoration: none;
+                                color: $electricblue;
+                            }
+                        }
+                    }
+                }
+            }
+            .columna2-11{
+                padding-left: 20px;
+                padding: 20px;
+                .mapa{
+                    border-radius: 5px;
+                }
+                @include tablet{
+                    height: 600px;
+                } 
+            }
+            @include tablet{
+                grid-template-columns: 1fr;
+                text-align: center;
+                padding: 50px 5px;
+            } 
+        }
+        @include tablet{
+            padding: 10px;
+        }
+    }
+}

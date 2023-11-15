@@ -1,0 +1,103 @@
+main{
+    .seccion12{
+        .contenedor12{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center; 
+            background-color: $electricblue;
+            .imagen-robot{
+                background-image: url(../img/contacto.jpg); 
+                background-size: cover;
+                background-position: center;
+                height: 0;
+                padding-bottom: 100%;
+                @include tablet{
+                    padding-bottom: 120%;
+                } 
+            }
+            .texto12-contenedor{
+                margin-top: 80px;
+                padding: 100px;
+                color: white;
+                .boton6{
+                    color:white;
+                    text-decoration: none;
+                    font-family: 'DM Mono', monospace;
+                    font-size: 14px;
+                    border: 1px solid white;
+                    border-radius: 3px;
+                    padding: 15px;
+                    &:hover{
+                        color: $electricblue;
+                        background-color: white;
+                        border: $electricblue;
+                    }
+                }
+                @include tablet{
+                    margin-top: auto;
+                    padding: 80px 20px;
+                    text-align: center;
+                }
+            }
+            @include tablet{
+                grid-template-columns: 1fr;
+            }
+        }        
+    }
+    .form-container{
+        width: 100%;
+        padding: 100px;
+        border-radius: 8px;
+        font-family: 'DM Mono', monospace;
+        font-size: 13px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        background-image: url(../img/pattern.png);
+        background-size: 100%;
+        form{
+            width: 600px;
+            padding: 20px;
+            border: 1px solid black;
+            background-color: white;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+            label{
+                margin-bottom: 8px;
+            }
+            input, textarea{
+                padding: 8px;
+                margin-bottom: 16px;
+            }
+            button{
+                background-color: white;
+                color: black;
+                border: 1px solid black;
+                padding: 10px;
+                border-radius: 3px;
+                cursor: pointer;
+                font-family: 'DM Mono', monospace;
+                &:hover{
+                    background-color: $electricblue;
+                    color: white;
+                    border: 1px solid $electricblue;
+                }
+            }
+            @include tablet{
+                padding: 50px 20px;
+            }
+        }
+        @include tablet{
+            padding: 30px;
+        }
+    }
+    .extra-contacto{
+        text-align: center;
+        img{
+            width: 13rem;
+        }
+    }
+}
