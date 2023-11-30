@@ -21,16 +21,19 @@ main{
                 color: white;
                 .boton5{
                     color:white;
+                    background-color: transparent;
                     text-decoration: none;
                     font-family: 'DM Mono', monospace;
                     font-size: 14px;
                     border: 1px solid white;
                     border-radius: 3px;
                     padding: 15px;
+                    transition: all 0.5s ease;
                     &:hover{
                         color: $lightblue;
                         background-color: white;
                         border: $lightblue;
+                        transform: scale(1.05); 
                     }
                 }
                 @include tablet{

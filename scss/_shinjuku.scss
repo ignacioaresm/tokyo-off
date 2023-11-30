@@ -21,16 +21,19 @@ main{
                 color: white;
                 .boton4{
                     color:white;
+                    background-color: transparent;
                     text-decoration: none;
                     font-family: 'DM Mono', monospace;
                     font-size: 14px;
                     border: 1px solid white;
                     border-radius: 3px;
                     padding: 15px;
+                    transition: all 0.5s ease;
                     &:hover{
                         color: $darkgrey;
                         background-color: white;
                         border: $darkgrey;
+                        transform: scale(1.05);
                     }
                 }
                 @include tablet{
@@ -94,6 +97,22 @@ main{
         align-items:center;
         padding:150px;
         .extra-shin-1{
+            .boton-extra-shin{
+                color:black;
+                background-color: transparent;
+                text-decoration: none;
+                font-family: 'DM Mono', monospace;
+                border: 1px solid black;
+                border-radius: 3px;
+                padding: 15px;
+                transition: all 0.5s ease;
+                &:hover{
+                    color:white;
+                    background-color:$electricblue;
+                    border: 1px solid $electricblue;
+                    transform: scale(1.05); 
+                }
+            }
             padding: 80px 60px;
             @include tablet{
                 padding: 80px 20px;

@@ -42,15 +42,18 @@ main{
                 color: white;
                 .boton1{
                     color:white;
+                    background-color: transparent;
                     text-decoration: none;
                     font-family: 'DM Mono', monospace;
                     font-size: 14px;
                     border: 1px solid white;
                     border-radius: 3px;
                     padding: 15px;
+                    transition: all 0.5s ease;
                     &:hover{
                         color: $electricblue;
-                        background-color: white;   
+                        background-color:white;
+                        transform: scale(1.05);          
                     }
                 }
                 @include tablet{
@@ -82,6 +85,18 @@ main{
                 }
             }
         }
+        .easter-egg{
+            text-align: left;
+            margin-bottom: -50px;
+            margin-left: 50px;
+            img{
+                width: 5rem;
+            }
+            @include tablet{
+                text-align: center;
+                margin: 0;
+            }
+        }
     }
     .seccion4{
         background-image: url(../img/pattern.png);
@@ -95,15 +110,18 @@ main{
                 border: 1px solid black;
                 .boton2{
                     color:black;
+                    background-color: transparent;
                     text-decoration: none;
                     font-family: 'DM Mono', monospace;
                     border: 1px solid black;
                     border-radius: 3px;
                     padding: 15px;
+                    transition: all 0.5s ease;
                     &:hover{
                         color:white;
                         background-color:$electricblue;
                         border: 1px solid $electricblue;
+                        transform: scale(1.05); 
                     }
                 }
             }
@@ -154,4 +172,3 @@ main{
         }
     }
 }
-

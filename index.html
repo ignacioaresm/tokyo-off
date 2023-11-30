@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=DM+Sans:opsz@9..40&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilo.css">
@@ -63,15 +64,15 @@
 
         <section class="seccion2">
             <div class="contenedor2">
-                <div class="imagen2">
+                <div class="imagen2" data-aos="zoom-in" data-aos-duration="800">
                     <img class="geek" src="./img/geek.png" alt="Geek en Skate">
                 </div>
 
-                <div class="contenido2">
+                <div class="contenido2" data-aos="fade-left" data-aos-duration="800">
                     <h1>Bienvenidos Geeks</h1>
-                    <p>Explora el corazón de Tokyo a través de nuestra guía única para los amantes de los videojuegos, mangas y más. Sumérgete en la vibrante cultura geek de la ciudad mientras descubres los mejores lugares para comprar increibles tesoros. Desde tiendas de videojuegos retro hasta escondites de mangas raros, te llevaremos en un viaje inolvidable por la capital geek del mundo. Pero eso no es todo... Preparate para vivir Tokio como nunca antes, sumergiéndote en la fusión perfecta entre lo moderno y lo tradicional que solo esta metrópolis puede ofrecer.¡Prepárate para vivir Tokio como nunca antes!</p>
+                    <p>Explora el corazón de Tokyo a través de nuestra guía única para los amantes de los videojuegos, mangas y más. Sumérgete en la vibrante cultura geek de la ciudad mientras descubres los mejores lugares para comprar increíbles tesoros. Desde tiendas de videojuegos retro hasta escondites de mangas raros, te llevaremos en un viaje inolvidable por la capital geek del mundo. Pero eso no es todo... Vas a vivir Tokio como nunca antes, sumergiéndote en la fusión perfecta entre lo moderno y lo tradicional que solo esta metrópolis puede ofrecer. ¡Prepárate para vivir una experiencia sin igual!</p>
                     <br>
-                    <a href="#mas-seccion3" class="boton1">¿Quieres saber más?</a>
+                    <a href="#mas-seccion3"><button class="boton1">¿Quieres saber más?</button></a>
                 </div>
             </div>
         </section>
@@ -105,14 +106,18 @@
                         <div class="p-3 contenedor-icono">
                             <div class="icono"><i class="bi bi-moon-stars"></i></div>
                             <h3>Tokio Nocturno</h3>
-                            <p>Descubre el encanto único de Tokyo cuando cae la noche. Desde los deslumbrantes neones de Shibuya hasta los tranquilos callejones de Golden Gai, sumérgete en la vida nocturna que transforma la ciudad. Con nuestra guía, desvela los secretos de un Tokio nocturno que nunca duerme y encuentra la diversión en cada rincón.</p>
+                            <p>Descubre el encanto único de Tokyo cuando cae la noche. Desde los deslumbrantes neones de Shibuya hasta los tranquilos callejones de Golden Gai, sumérgete en la vida nocturna que transforma la ciudad. Con nuestra guía, devela los secretos de un Tokio nocturno que nunca duerme y encuentra la diversión en cada rincón.</p>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="easter-egg" data-aos="fade-down" data-aos-duration="800">
+                <a href="https://www.youtube.com/watch?v=ZsExkXeu_qA" target="_blank"><img src="../img/pokeball.gif" alt="Pokeball Easter Egg"></a>
+            </div>
         </section>
         
         <section class="seccion4">
+            
             <div class="container mt-5 contenido4">
 
                 <h2 class="text-center mb-4">Los tres distritos</h2>
@@ -127,7 +132,7 @@
                                 <h3 class="card-title">Akihabara</h3>
                                 <p class="card-text">Adéntrate en la efervescencia geek de Akihabara, donde las luces destellan y los corazones otaku laten con intensidad. Con sus tiendas de tecnología de vanguardia, cafés temáticos y establecimientos dedicados al anime, es el paraíso para los amantes de la electrónica y los videojuegos. Un rincón de Tokyo donde la fantasía cobra vida entre neones brillantes.</p>
                                 <br>
-                                <a href="./paginas/akihabara.html" class="boton2">¡Explora más aquí!</a>
+                                <a href="./paginas/akihabara.html"><button class="boton2">¡Explora más aquí!</button></a>
                             </div>
                         </div>
                     </div>
@@ -139,7 +144,7 @@
                                 <h3 class="card-title">Shinjuku</h3>
                                 <p class="card-text">Shinjuku, donde la modernidad y la tradición se mezclan en un vibrante espectáculo urbano. Este distrito bullicioso alberga rascacielos imponentes, restaurantes de alta cocina y callejones llenos de bares. De día, explora sus enormes centros comerciales; de noche, sumérgete en la energía pulsante de Kabukicho, el distrito rojo de la ciudad que nunca duerme.</p>
                                 <br>
-                                <a href="./paginas/shinjuku.html" class="boton2">¡Descubre más aquí!</a>
+                                <a href="./paginas/shinjuku.html"><button class="boton2">¡Descubre más aquí!</button></a>
                             </div>
                         </div>
                     </div>
@@ -151,7 +156,7 @@
                                 <h3 class="card-title">Shibuya</h3>
                                 <p class="card-text">¡Te damos la bienvenida a Shibuya, donde encontrarás el cruce peatonal más famoso del planeta! Pero esta área va más allá de las luces intermitentes y las multitudes sincronizadas. Shibuya es el epicentro juvenil de Tokyo, lleno de moda vanguardista, cafeterías con encanto y una escena cultural en plena efervescencia. Atrévete a cruzar las calles y sumérgete en la esencia vibrante de la juventud tokiota.</p>
                                 <br>
-                                <a href="./paginas/shibuya.html" class="boton2">¡Encuentra más aquí!</a>
+                                <a href="./paginas/shibuya.html"> <button class="boton2">¡Encuentra más aquí!</button></a>
                             </div>
                         </div>
                     </div>
@@ -161,25 +166,25 @@
         
         <seccion class="seccion5">
             <div class="contenedor5">
-                <div class="column">
+                <div class="column" data-aos="zoom-in" data-aos-duration="800">
                   <img src="./img/gato.png" alt="Gato Comiendo Ramen">
                 </div>
-              
-                <div class="column">
-                  <div class="tabla-container">
-                        <h2>Sobre Japón</h2>
+    
+                <div class="column" data-aos="fade-left" data-aos-duration="800">
+                   <div class="tabla-container">
+                        <h2>Sobre Japón y más</h2>
                         <table>
                             <tr>
                                 <td>📍 Ubicación</td>
-                                <td>Archipiélago en el este de Asia</td>
+                                <td>Archipiélago en Asia</td>
                             </tr>
                             <tr>
                                 <td>🎎 Población</td>
-                                <td>Alrededor de 126 millones</td>
+                                <td>+126 millones</td>
                             </tr>
                             <tr>
                                 <td>🗾 Capital</td>
-                                <td>Tokio, la metrópolis más grande</td>
+                                <td>Tokio</td>
                             </tr>
                             <tr>
                                 <td>🇯🇵 Idioma</td>
@@ -191,15 +196,15 @@
                             </tr>
                             <tr>
                                 <td>🎋 Clima</td>
-                                <td>Desde templado hasta subtropical</td>
+                                <td>Templado y subtropical</td>
                             </tr>
                             <tr>
                                 <td>👺 Religión</td>
-                                <td>Sintoísmo y budismo</td>
+                                <td>Sintoísmo y Budismo</td>
                             </tr>
                             <tr>
                                 <td>🏯 Arquitectura</td>
-                                <td>Mezcla de tradicional y moderna</td>
+                                <td>Tradicional y moderna</td>
                             </tr>
                             <tr>
                                 <td>🍜 Cocina</td>
@@ -207,30 +212,34 @@
                             </tr>
                             <tr>
                                 <td>🎏 Festivales</td>
-                                <td>Hanami, Gion Matsuri y otros!</td>
+                                <td>Hanami, Matsuri y otros!</td>
                             </tr>
                         </table>        
                     </div>
-                 
-                </div>   
-            </div>        
+                </div>
+            </div>
+   
         </seccion>
 
         <a href="#top"><button class="floating-button">↑</button></a>
+        
     </main>
 
     <footer class="container-fluid d-flex justify-content-between align-items-center p-4">
         <div class="social-icons">
-          <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
-          <a href="https://www.youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a>
-          <a href="https://www.pinterest.com/" target="_blank"><i class="bi bi-pinterest"></i></a>
+            <a href="https://discord.com/" target="_blank"><i class="bi bi-discord"></i></a>
+            <a href="https://www.twitch.tv/" target="_blank"><i class="bi bi-twitch"></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a>
         </div>
         <div class="footer-text">
-          <p>©2023 Tokyo·off</p>
+            <p>©2023 Tokyo·off</p>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init();</script>
+
 
 </body>
 </html>
